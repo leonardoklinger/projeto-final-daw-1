@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-color: #5072f6;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    border-bottom: #383838 solid;
+    height: 80px;
+    width: 330px;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 5px #113FE3 solid;
+    height: 0px;
+    width: 70px;
+}
+
+#menu-h{
+    background-color: #3A66FF;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h img{
+    height: 60px;
+    left: 50px;
+    position: absolute;
+    top: 1px;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:nth-child(5) a{
+    float: right;
+    background-color: #062DB9;
+}
+
+#menu-h ul li:nth-child(5) a:hover{
+    float: right;
+    background-color: #011e88;
+}
+
+.inputs{
+    top: 40px;
+    position: relative;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.input-nome{
+    border: none;
+    color: white;
+    height: 30px;
+    width: 180px;
+    background-color: #113FE3;
+    border: #0226a8 3px solid;
+}
+
+.input-numero{
+    border: none;
+    color: white;
+    height: 30px;
+    width: 180px;
+    background-color: #113FE3;
+    border: #0226a8 3px solid;
+}
+
+.input-data{
+    border: none;
+    color: white;
+    height: 30px;
+    width: 180px;
+    background-color: #113FE3;
+    border: #0226a8 3px solid;
+}
+
+.button{
+    color: white;
+    background-color: #113FE3;
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-bottom: #0226a8 solid;
+    border-radius: 3px;
+    transition: color 0.3s;
+    position: relative;
+    bottom: 2px;
+}
+
+.button:hover{
+    transition: background-color 0.3s;
+    color: rgb(161, 161, 161);
+    background-color: #00229e;
+}
