@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-color: #5072f6;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    border-bottom: #383838 solid;
+    height: 80px;
+    width: 300px;
+}
+
+h2{
+    text-align: center;
+    border-bottom: 5px #113FE3 solid;
+    height: 0px;
+    width: 70px;
+}
+
+
+.inputs{
+    padding-right: 10%;
+    float: right;
+}
+
+input:focus, textarea:focus{
+    border-radius: 4px;
+    border: 3px solid #0426a0;
+    outline: none;
+}
+
+.inputs-valor{
+    border-radius: 4px;
+    border: 3px solid #113FE3;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    color: #011e88;
+}
+
+.button{
+    color: white;
+    background-color: #113FE3;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-bottom: #0226a8 solid;
+    border-radius: 3px;
+    transition: color 0.3s;
+}
+
+.button:hover{
+    transition: background-color 0.3s;
+    color: rgb(161, 161, 161);
+    background-color: #00229e;
+}
+
+.button:hover{
+    transition: background-color 0.3s;
+    color: rgb(161, 161, 161);
+    background-color: #00229e;
+}
+
+.Nome{
+    color: white;
+    position: relative;
+    bottom: -9px;
+}
+
+.Valor{
+    color: rgb(34, 241, 34);
+    float: right;
+    padding-right: 15%;
+    bottom: -9px;
+}
+
+.Valor i{
+    color: white;
+    font-size: 30px;
+}
+
+.Nome i{
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    max-width: 450px;
+    padding: 0 20px;
+    border: 3px solid #0b30a8;
+    background-color: #224dda;
+    border-radius: 5px;
+    margin: 20px 0;
+    width: 500px;
+    height: 10%;
+    margin: auto;
+    padding: 20px;
+    align-items: center
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+
+#menu-h{
+    background-color: #3A66FF;
+}
+
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h img{
+    height: 60px;
+    left: 50px;
+    position: absolute;
+    top: 1px;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu-h ul li:nth-child(5) a{
+    float: right;
+    background-color: #062DB9;
+}
+
+#menu-h ul li:nth-child(5) a:hover{
+    float: right;
+    background-color: #011e88;
+}
