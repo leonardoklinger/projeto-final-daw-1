@@ -46,6 +46,7 @@ Dentro desse retângulo branco você terá que coloca o seguintes códigos.
 
 ![image](https://user-images.githubusercontent.com/60077995/131771648-46cfe274-e250-4657-b1ea-ba6dc27db3fe.png)
 
+~~~SQL
 CREATE TABLE cadastroleilao (
 	id serial PRIMARY KEY,
 	nome VARCHAR (50) NOT NULL,
@@ -60,7 +61,6 @@ CREATE TABLE lances(
 	nome VARCHAR (300) NOT NULL,
 	valor integer NOT NUll,
 );
-
 CREATE TABLE login(
 	nome VARCHAR (300) NOT NULL,
 	usuario VARCHAR (50) NOT NULL,
@@ -70,3 +70,4 @@ CREATE TABLE login(
 );
 
 INSERT INTO login (nome, usuario, senha, email, tipo) values ('admin', 'admin', '123', 'admin@gmail.com', 'admin')
+~~~
