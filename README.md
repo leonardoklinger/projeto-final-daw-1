@@ -71,3 +71,7 @@ CREATE TABLE login(
 
 INSERT INTO login (nome, usuario, senha, email, tipo) values ('admin', 'admin', '123', 'admin@gmail.com', 'admin')
 ~~~
+
+![image](https://user-images.githubusercontent.com/60077995/131774212-8f94624d-3f07-4379-9972-4b8d7c665a55.png)
+
+Créditos: [Felipe Neto]([https://github.com/FNetoF](https://github.com/FNetoF "https://github.com/FNetoF"))
