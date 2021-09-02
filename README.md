@@ -78,3 +78,6 @@ Créditos de envios de e-mails: [Felipe Neto](https://github.com/FNetoF/Projeto-
 
 ### Ops
 Você terá que pedir uma liberação de uma senha(Senha para aplicativos.) para à aplicação do sistema de e-mail funcione.
+
+### Último passo
+Você terá que ter uma IDE, com um servidor tomcat para WEB, para que você possa fazer a utilização do projeto.
