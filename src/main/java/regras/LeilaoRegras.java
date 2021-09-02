@@ -61,8 +61,8 @@ public class LeilaoRegras {
 
     public static boolean Email(String status, String nomeLeilao, String nomedoUsuario, String emailUser){
         if(status.equals("FINALIZADO")){
-                    String email = "leonardoklingerdeveloper@gmail.com";
-        String senha = "fiofwumvqnvpraiz";
+                    String email = "";
+        String senha = "";
         String mensagem = "<body style=\"font-family:Arial; padding-left: center; text-align: center; color: white\"> <div style=\"background: #63c7f6; width: 450px; height: 460px; margin: 10px auto; border-radius: 20px;\"> <img src=\"https://i.imgur.com/i67UthN.png\" style=\"margin: 8px auto;\"> <b><p style=\" font-size: 30px;\">Olá, "+ nomedoUsuario +"</p></b> <p style=\" font-size: 14px;\">Informamos que você acaba de arrematar um ótimo produto.</p>  <b><p style=\" font-size:24px;\">"+ nomeLeilao  +"</p></b> <p style=\" font-size: 14px;\">Nós do Leilão ficamos muito felizes pela sua aquisição.</p> <img src=\"https://i.imgur.com/MusaR2m.png\"> <footer style=\" font-size: 10px; color: red;\">Atenção, não responder este e-mail!</footer> </div> </body>";
 
         Properties props = new Properties();
