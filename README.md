@@ -46,6 +46,8 @@ Dentro desse retângulo branco você terá que coloca o seguintes códigos.
 
 ![image](https://user-images.githubusercontent.com/60077995/131771648-46cfe274-e250-4657-b1ea-ba6dc27db3fe.png)
 
+<hr>
+<hr>
 ~~~SQL
 CREATE TABLE cadastroleilao (
 	id serial PRIMARY KEY,
